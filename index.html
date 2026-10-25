@@ -1,0 +1,147 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samperio | Doces artesanais</title>
+    <link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <img src="logo.png" alt="Logo da Samperio" class="logo">
+
+        <h1>Pequenos doces, grandes momentos.</h1>
+        <p>O sabor que marca uma era.</p>
+    </header>
+
+    <main>
+        <section class="vitrine" id="produtos">
+            
+<section class="chamada-pedido">
+    <h2>Deu vontade de um docinho?</h2>
+    <p>Consulte os sabores disponíveis e faça seu pedido.</p>
+
+    <a
+        class="botao-whatsapp"
+        href="https://wa.me/5585982134603?text=Ol%C3%A1%2C%20Samperio!%20Vim%20pelo%20site%20e%20gostaria%20de%20consultar%20os%20doces%20dispon%C3%ADveis."
+        target="_blank"
+        rel="noopener noreferrer"
+    >
+        Fazer pedido pelo WhatsApp
+    </a>
+</section>
+
+            <h2>Nossos doces</h2>
+            <p class="subtitulo">
+                Pequenos prazeres, feitos para marcar momentos.
+            </p>
+
+            <div class="produtos">
+
+                
+<!-- BROWNIES -->
+
+<article class="produto">
+    <img src="imagens/brownie-dueto.jpeg" alt="Brownie dueto">
+    <h3>Brownie Dueto</h3>
+    <p>Uma combinação deliciosa de sabores.</p>
+    <p class="preco">Consulte o preço</p>
+</article>
+
+<article class="produto">
+    <img src="imagens/brownie-maracujá.jpeg" alt="Brownie de maracujá">
+    <h3>Brownie de Maracujá</h3>
+    <p>Chocolate com um toque especial de maracujá.</p>
+    <p class="preco">Consulte o preço</p>
+</article>
+
+<article class="produto">
+    <img src="imagens/brownie-ninho-com-nutella.jpeg" alt="Brownie de Ninho com Nutella">
+    <h3>Brownie de Ninho com Nutella</h3>
+    <p>Uma combinação cremosa e irresistível.</p>
+    <p class="preco">Consulte o preço</p>
+</article>
+
+<!-- TRUFAS -->
+
+<article class="produto">
+    <img src="imagens/trufa-brigadeiro.jpeg" alt="Trufa de brigadeiro">
+    <h3>Brigadeiro</h3>
+    <p>Chocolate por fora e recheio cremoso.</p>
+    <p class="preco">Consulte a disponibilidade</p>
+</article>
+
+<article class="produto">
+    <img src="imagens/trufa-limao.jpeg" alt="Trufa de limão">
+    <h3>Limão</h3>
+    <p>Uma combinação de chocolate com o toque cítrico do limão.</p>
+    <p class="preco">Consulte a disponibilidade</p>
+</article>
+
+<article class="produto">
+    <img src="imagens/trufa-morango.jpeg" alt="Trufa de morango">
+    <h3>Morango</h3>
+    <p>Um recheio delicado com sabor de morango.</p>
+    <p class="preco">Consulte a disponibilidade</p>
+</article>
+
+<article class="produto">
+    <img src="imagens/trufa-ninho.jpeg" alt="Trufa de Ninho">
+    <h3>Ninho</h3>
+    <p>Recheio cremoso de leite em pó.</p>
+    <p class="preco">Consulte a disponibilidade</p>
+</article>
+
+<article class="produto">
+    <img src="imagens/trufa-beijinho.jpeg" alt="Trufa de beijinho">
+    <h3>Beijinho</h3>
+    <p>Uma opção cremosa com sabor de coco.</p>
+    <p class="preco">Consulte a disponibilidade</p>
+</article>
+
+
+            </div>
+
+            <p class="aviso">
+                Os sabores e produtos variam conforme a disponibilidade.
+                Consulte antes de fazer seu pedido.
+            </p>
+        </section>
+        
+
+<section class="area-carrinho" id="pedido">
+    <div class="titulo-carrinho">
+        <span class="etiqueta-carrinho">SAMPÉRIO • SEU MOMENTO DOCE</span>
+        <h2>Seu pedido</h2>
+        <p>Escolha seus favoritos e monte sua seleção de doces.</p>
+    </div>
+
+    <div class="resumo-carrinho">
+        <div class="icone-carrinho">♡</div>
+        <div>
+            <strong>Minha seleção</strong>
+            <p><span id="contador-carrinho">0</span> doce(s) selecionado(s)</p>
+        </div>
+    </div>
+
+    <div id="itens-carrinho" aria-live="polite">
+        <p class="carrinho-vazio">
+            Seu carrinho está vazio. Escolha seus doces favoritos!
+        </p>
+    </div>
+
+    <div class="rodape-carrinho">
+        <p class="total">Preços e disponibilidade serão confirmados pelo WhatsApp.</p>
+
+        <button id="finalizar-pedido" type="button">
+            Finalizar pedido pelo WhatsApp ↗
+        </button>
+
+        <button id="limpar-carrinho" type="button" class="limpar-carrinho">
+            Limpar carrinho
+        </button>
+    </div>
+</section>
